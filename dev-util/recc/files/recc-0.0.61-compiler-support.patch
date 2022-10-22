@@ -1,0 +1,13 @@
+diff --git a/src/compilerdefaults.cpp b/src/compilerdefaults.cpp
+index 5999d46..7c131cb 100644
+--- a/src/compilerdefaults.cpp
++++ b/src/compilerdefaults.cpp
+@@ -18,7 +18,7 @@ namespace recc {
+ 
+ // Supported Compilers
+ const SupportedCompilers::CompilerListType SupportedCompilers::Gcc = {
+-    "gcc", "g++", "c++", "clang", "clang++"};
++    "gcc", "g++", "c++", "clang", "clang++", "x86_64-pc-linux-gnu-gcc", "x86_64-pc-linux-gnu-g++"};
+ const SupportedCompilers::CompilerListType
+     SupportedCompilers::GccPreprocessor = {"gcc-preprocessor"};
+ const SupportedCompilers::CompilerListType SupportedCompilers::SunCPP = {"CC"};
